@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0c16a;
+    color: rgb(226, 213, 213);
+    font-size: 20px;
+}
+
+.head-container {
+    position: relative;
+    top: 5vh;
+    left: 10vw;
+
+    height: 95vh;
+    width: 80vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    background-image: url("/images/Gemini_Generated_Image_6q20rv6q20rv6q20.png");
+    background-size: cover;
+}
+
+.head-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.12em;
+    margin: 9px auto auto auto;
+}
+
+.nav-head {
+    margin: 9px 10px auto 10px;
+}
+
+.logo {
+    margin: 9px 30px auto 9px;
+    font-size: 1.5em;
+}
+
+.left {
+    font-size: 1.14em;
+    margin: 12px 10px auto 10px;
+}
+
+#id7 {
+    position: absolute;
+    left: 56vw;
+    top: 230PX;
+    font-size: 1.1em;
+}
+
+#id8 {
+    position: absolute;
+    left: 56vw;
+    top: 265px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#id9 {
+    position: absolute;
+    left: 56vw;
+    top: 294px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#id10 {
+    position: absolute;
+    left: 56vw;
+    top: 345px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #8A6552;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 18vh;
+    width: 80vw;
+
+    margin: 60px 10vw 20px 10vw;
+}
+
+.type {
+    height: 15vh;
+    width: 15vh;
+}
+
+#type1 {
+    background-image: url("/images/Hot_coffee.png");
+    background-size: cover;
+}
+
+#type2 {
+    background-image: url("/images/Cold_coffee.png");
+    background-size: cover;
+}
+
+#type3 {
+    background-image: url("/images/Cup_coffee.png");
+    background-size: cover;
+}
+
+#type4 {
+    background-image: url("/images/Dessert.png");
+    background-size: cover;
+}
+
+.specials {
+    height: 130vh;
+    width: 80vw;
+    background-color: #ede0da;
+    border: 2px solid rgba(0,0,0,0.2);
+
+    position: relative;
+    left: 10vw;
+    margin-bottom: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading {
+    font-size: 1.8rem;
+    color: #8A6552;
+}
+
+.special-coffee {
+    height: 52vh;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.special-desserts {
+    height: 52vh;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    height: 52vh;
+    width: 23%;
+    border: 1px solid #800020;
+    padding: 4px;
+
+    position: relative;
+    box-shadow: 3px 3px #8d7d75;
+}
+
+.img-box {
+    width: 99.2%;
+    height: 95%;
+}
+
+#heart {
+    position: relative;
+    top: 5px;
+    left: 225px;
+}
+
+#img1 {
+    background-image: url("/images/Lungo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background-image: url("/images//Dalgona.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img3 {
+    background-image: url("/images/Iced.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img4 {
+    background-image: url("/images/Filter.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#id11 {
+    color: #58260e;
+    font-size: 1.4rem;
+    margin-top: -65px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #230b00;
+    margin-top: 22px;
+}
+
+.rupee {
+    font-size: 1.7rem;
+    position: absolute;
+    left: 5px;
+}
+
+.box-buy {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #8A6552;
+
+    position: absolute;
+    right: 12px;
+    bottom: 5px;
+}
+
+#img5 {
+    background-image: url("/images/Gulab.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img6 {
+    background-image: url("/images/Tiramisu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img7 {
+    background-image: url("/images/Churros.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img8 {
+    background-image: url("/images/Lamingtons.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.coffee-beans {
+    height: 40vh;
+    width: 80vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 10vw;
+    margin-bottom: 25px;
+
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+#paragraph1 {
+    font-size: 2em;
+    color: #230b00;
+    margin-top: -60px;
+}
+
+#paragraph2 {
+    font-size: 1.6em;
+    color: #230b00;
+    position: relative;
+    left: 60px;
+}
+
+#paragraph3 {
+    font-size: 1.6em;
+    color: #230b00;
+    position: relative;
+    top: 30px;
+}
+
+#para-box {
+    background-color: #230b00;
+    color: wheat;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+
+#para-box2 {
+    background-color: #230b00;
+    color: wheat;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    
+    position: relative;
+    top: 42px;
+    left: 110px;
+}
+
+.rupee1 {
+    font-size: 1.7rem;
+}
+
+.foot-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+#logo1 {
+    margin-top: 30px;
+}
+
+.foot-container {
+    width: 80vw;
+    height: 28vh;
+    
+    position: relative;
+    left: 10vw;
+    margin-bottom: 25px;
+
+    background-color: #58260e;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.social-head {
+    margin-bottom: 10px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+#head-foot {
+    font-size: 1.7rem;
+}
+
+.clickable:hover {
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
+}
