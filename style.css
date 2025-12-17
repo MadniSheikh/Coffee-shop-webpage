@@ -20,7 +20,7 @@ body {
     border: 1px solid grey;
     border-radius: 5px;
 
-    background-image: url("/images/Gemini_Generated_Image_6q20rv6q20rv6q20.png");
+    background-image: url("./images/Gemini_Generated_Image_6q20rv6q20rv6q20.png");
     background-size: cover;
 }
 
@@ -102,22 +102,22 @@ body {
 }
 
 #type1 {
-    background-image: url("/images/Hot_coffee.png");
+    background-image: url("./images/Hot_coffee.png");
     background-size: cover;
 }
 
 #type2 {
-    background-image: url("/images/Cold_coffee.png");
+    background-image: url("./images/Cold_coffee.png");
     background-size: cover;
 }
 
 #type3 {
-    background-image: url("/images/Cup_coffee.png");
+    background-image: url("./images/Cup_coffee.png");
     background-size: cover;
 }
 
 #type4 {
-    background-image: url("/images/Dessert.png");
+    background-image: url("./images/Dessert.png");
     background-size: cover;
 }
 
@@ -184,25 +184,25 @@ body {
 }
 
 #img1 {
-    background-image: url("/images/Lungo.png");
+    background-image: url("./images/Lungo.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #img2 {
-    background-image: url("/images//Dalgona.png");
+    background-image: url("./images//Dalgona.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #img3 {
-    background-image: url("/images/Iced.png");
+    background-image: url("./images/Iced.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #img4 {
-    background-image: url("/images/Filter.png");
+    background-image: url("./images/Filter.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -239,25 +239,25 @@ body {
 }
 
 #img5 {
-    background-image: url("/images/Gulab.png");
+    background-image: url("./images/Gulab.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #img6 {
-    background-image: url("/images/Tiramisu.png");
+    background-image: url("./images/Tiramisu.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #img7 {
-    background-image: url("/images/Churros.png");
+    background-image: url("./images/Churros.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #img8 {
-    background-image: url("/images/Lamingtons.png");
+    background-image: url("./images/Lamingtons.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
